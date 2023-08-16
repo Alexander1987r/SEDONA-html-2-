@@ -1,0 +1,54 @@
+@font-face{
+  font-family: "PT Sans";
+  src: local("PT Sans"),
+       local("My PT Sans"),
+       url(../fonts/ptsans.woff2) format("woff2"),
+       url(../fonts/ptsans.woff) format("woff"),
+       url(../fonts/ptsans.eot) format("eot");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face{
+  font-family: "PT Sans";
+  src: local("PT Sans"),
+       local("My PT Sans"),
+       url(../fonts/ptsans.woff2) format("woff2"),
+       url(../fonts/ptsans.woff) format("woff"),
+       url(../fonts/ptsans.eot) format("eot");
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+@line:1px solid red;
+@color-white:rgba(255, 255, 255, 1);
+@color-blue:rgba(129, 179, 210, 1);
+@color-black:rgba(0, 0, 0, 1);
+@color-gray:rgba(51, 51, 51, 1);
+@color-bg-gray:rgba(238, 238, 238, 1);
+@color-gray-input:rgba(242, 242, 242, 1);
+@color-input-icon:rgba(230, 230, 230, 1);
+@tablet-width:768px;
+@desktop-width:1200px;
+
+.list(){
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.link(){
+  text-transform: uppercase;
+  text-decoration: none;
+  color:@color-white;
+}
+.visyal-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip:rect(0 0 0 0 );
+  overflow: hidden;
+}
